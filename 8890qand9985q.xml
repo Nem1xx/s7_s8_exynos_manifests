@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="8890q"
+           fetch="https://github.com/8890q"/>
+
+
+ <!-- Device Trees -->
+  <project path="device/samsung/universal8890-common" name="android_device_samsung_universal8890-common"    remote="8890q"  revision="lineage-20.0"/>
+  <project path="device/samsung/universal8895-common" name="android_device_samsung_universal8895-common"    remote="8890q"  revision="lineage-20.0"/>
+  <project path="device/samsung/hero2lte" name="android_device_hero2lte"    remote="8890q"  revision="lineage-20.0"/>
+  <project path="device/samsung/herolte" name="android_device_samsung_herolte"    remote="8890q"  revision="lineage-20.0"/>
+  <project path="device/samsung/dreamlte" name="android_device_samsung_dreamlte"    remote="8890q"  revision="lineage-20.0"/>
+  <project path="device/samsung/dream2lte" name="android_device_samsung_dream2lte"    remote="8890q"  revision="lineage-20.0"/>
+  
+ <!-- Sepolicy -->
+  <project path="device/samsung/slsi/sepolicy" name="android_device_samsung_slsi_sepolicy"    remote="8890q"  revision="lineage-20.0"/>
+
+ <!-- Vendor -->
+  <project path="vendor/samsung" name="proprietary_vendor_samsung"  remote="8890q"  revision="lineage-20.0"/>
+  
+ <!-- Sasmung HALS -->
+  <project path="hardware/samsung" name="android_hardware_samsung "  remote="8890q"  revision="lineage-20.0"/>
+  
+ <!-- Kernel -->
+  <project path="kernel/samsung/universal8890" name="android_kernel_samsung_universal8890"  remote="8890q"  revision="lineage-20.0"/>
+  <project path="kernel/samsung/universal8895" name="android_kernel_samsung_universal8895"  remote="8890q"  revision="lineage-20.0"/>
+
+</manifest>
